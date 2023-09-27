@@ -1,0 +1,12 @@
+body{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Para alinear verticalmente en el centro */
+    align-items: center;     /* Para alinear horizontalmente en el centro */
+    width: 202vh;
+
+}
+.video{
+    width: 100%;
+}
