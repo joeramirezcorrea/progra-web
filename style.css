@@ -1,11 +1,12 @@
 body{
 
-    text-align:center;
+    
     display: flex;
     flex-direction: column;
     justify-content: center; /* Para alinear verticalmente en el centro */
     align-items: center;     /* Para alinear horizontalmente en el centro */
-    width: 202vh;
+    width: auto;
+    height: auto;
 
 }
 fp a{
@@ -174,7 +175,7 @@ fp a{
     padding: 2.1%;
     z-index: 1;
     height: 20%;
-  
+
 }
 .fhistory p{
     position: absolute;
@@ -202,7 +203,6 @@ fp a{
     width: 25%;
     font-style: italic;
 
-   
 
 }
 a{
@@ -211,10 +211,7 @@ a{
 
 }
 
-body{
-    margin: 0;
-    padding: 0;
-}
+
 .porscheL h1{
     top: 50px;
     left: 20px;
@@ -223,7 +220,12 @@ body{
 .fp h2{
     text-align: left;
     position: relative;
-    left: 120px;
+    padding-left: 7.454%;
+    padding-right: 7.1454%;
+    width: 90%;
+    margin-left: 1%;
+    font-family: inherit;
+    font-size: 28px;
 }
 .porscheL h1{
     top: 15px;
@@ -239,9 +241,45 @@ body{
     display:inline-block;
     margin-right:1px;
     background-color: black;
+    width: 400px;
 }
 .map iframe{
  
-    width: 50%;
-    height: 600px;
+    width: 100%;
+    height: 800px;
+
+}
+
+.resolucion{
+    width: 99%;
+    text-align: center;
+
+}
+@media(max-width:767px){
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    
+}
+@media(min-width: 768px ) and (max-width: 990px){
+    .desktop{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+    
+
+}
+@media(max-width:767px){
+    .tablet{
+        display: none;
+    }
+    .movil{
+        display: none;
+    }
+
 }
